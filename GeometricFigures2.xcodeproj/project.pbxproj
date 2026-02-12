@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		971A9B582F3E23690072C63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971A9B542F3E23690072C63B /* Assets.xcassets */; };
+		971A9B5A2F3E23690072C63B /* GeometricFigures2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A9B562F3E23690072C63B /* GeometricFigures2App.swift */; };
+		971A9B5D2F3E27A80072C63B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A9B5C2F3E27A80072C63B /* CircleView.swift */; };
+		971A9B602F3E2B2B0072C63B /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A9B5F2F3E2B2B0072C63B /* Circle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		971A9B462F3E224B0072C63B /* GeometricFigures2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		971A9B542F3E23690072C63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		971A9B562F3E23690072C63B /* GeometricFigures2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFigures2App.swift; sourceTree = "<group>"; };
+		971A9B5C2F3E27A80072C63B /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		971A9B5F2F3E2B2B0072C63B /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		971A9B482F3E224B0072C63B /* GeometricFigures2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GeometricFigures2;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		971A9B432F3E224B0072C63B /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		971A9B3D2F3E224B0072C63B = {
 			isa = PBXGroup;
 			children = (
-				971A9B482F3E224B0072C63B /* GeometricFigures2 */,
+				971A9B572F3E23690072C63B /* GeometricFigures2 */,
 				971A9B472F3E224B0072C63B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				971A9B462F3E224B0072C63B /* GeometricFigures2.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		971A9B572F3E23690072C63B /* GeometricFigures2 */ = {
+			isa = PBXGroup;
+			children = (
+				971A9B5E2F3E2A560072C63B /* Model */,
+				971A9B562F3E23690072C63B /* GeometricFigures2App.swift */,
+				971A9B5B2F3E26470072C63B /* Views */,
+				971A9B542F3E23690072C63B /* Assets.xcassets */,
+			);
+			path = GeometricFigures2;
+			sourceTree = "<group>";
+		};
+		971A9B5B2F3E26470072C63B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				971A9B5C2F3E27A80072C63B /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		971A9B5E2F3E2A560072C63B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				971A9B5F2F3E2B2B0072C63B /* Circle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				971A9B482F3E224B0072C63B /* GeometricFigures2 */,
 			);
 			name = GeometricFigures2;
 			packageProductDependencies = (
@@ -109,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971A9B582F3E23690072C63B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971A9B5D2F3E27A80072C63B /* CircleView.swift in Sources */,
+				971A9B5A2F3E23690072C63B /* GeometricFigures2App.swift in Sources */,
+				971A9B602F3E2B2B0072C63B /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
